@@ -6,7 +6,7 @@
 
 ###### React Project `amazon clone` [See Live Preview](https://stacksagar.github.io/amazon-clone 'project of @stacksagar')
 
-> Amazon Clone with fully designed, customization, user singup/login functionality, full slider, product slider, shopping cart & etc.
+> Amazon Clone with fully designed (home-page/product-page/login-page/checkout-page), customization, user singup/login functionality, full slider, product slider, shopping cart & etc.
  
  <a href="https://stacksagar.github.io/amazon-clone" >
   <img src="https://i.ibb.co/9NLDZZ6/Amazon-clone-by-stacksagar.png" alt="Amazon-clone-by-stacksagar" border="0">
