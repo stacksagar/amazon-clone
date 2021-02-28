@@ -1,0 +1,56 @@
+.Products {
+  padding:20px;
+  background:#eee;
+  display: grid; 
+  grid-template-columns: repeat(6, 16.66% );
+  
+}
+
+.Products > div {
+  min-height:300px;
+  background:#fff;
+  padding:10px !important;
+  margin:10px !important;
+  grid-column: span 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.Products > div > p {   
+  font-size:14px; 
+  width:100%;
+  text-align: left;
+} 
+.Products > div > p.title {
+  color:#555;
+}
+.Products > div > p.review {
+  font-size:8px;
+  color:orange;
+}
+.Products > div > p.price {
+  font-weight:bold;
+}
+.Products > div > .image {
+  width:50%;
+  height:150px; 
+  padding:5px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Products > div > .image > img { 
+  max-height:100%;
+}
+.Products > div > button {
+  margin-top:9px !important;
+}
+
+.Products > div:nth-of-type(1),
+.Products > div:nth-of-type(2) {
+  grid-column: span 3 !important;
+}
+.Products > div:nth-of-type(6){
+  grid-column: span 6 !important;
+}

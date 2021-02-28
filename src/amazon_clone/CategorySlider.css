@@ -1,0 +1,93 @@
+* {
+  scroll-behavior: smooth !important; 
+}
+
+.CategorySlider {
+  background:#fff; 
+  position: relative;
+  width:100%;
+  padding:10px;
+  margin-bottom:20px !important;
+} 
+.CategorySlider > button{
+  position: absolute; 
+  left:10px;
+  top:0px;
+  bottom:0px;
+  margin:auto !important;
+  height:100px;
+  width:50px;
+  display: flex;
+  justify-content:center; 
+  align-items: center;
+  padding:0px !important; 
+  font-size:30px;
+  opacity:0;
+} 
+.CategorySlider:hover > button{ 
+  opacity:0.5;
+} 
+.CategorySlider > button:nth-of-type(2){ 
+  left:unset !important;
+  right:10px !important; 
+} 
+.CategorySlider h5 {
+  padding:10px;
+}
+.CategorySlider > .CategorySlider_container {
+  display: flex;
+  background:#fff;
+  width:100%;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  padding-bottom:10px !important;
+}
+.CategorySlider > div > div {
+  min-width:200px;
+  height:200px;
+  margin-right:9px !important; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size:50px;
+}
+.CategorySlider > div > div > img { 
+  max-width:90%;
+  max-height:90%;
+}
+
+/* width */
+.CategorySlider_container::-webkit-scrollbar { 
+  height:8px;  
+  background:#fff;    
+}
+ 
+.CategorySlider_container {
+  scrollbar-width: thin; 
+  scrollbar-color: transparent transparent ;   
+}
+.CategorySlider_container:hover {
+  scrollbar-color: #888 transparent ;   
+}
+
+/* Track */
+.CategorySlider_container::-webkit-scrollbar-track { 
+  border-radius: 10px;
+  cursor: pointer !important;
+}
+  
+/* Handle */
+.CategorySlider_container::-webkit-scrollbar-thumb {
+  background: transparent; 
+  border-radius: 10px;
+}
+
+.CategorySlider_container:hover::-webkit-scrollbar-thumb {
+  background: #999; 
+}
+
+/* Handle on hover */
+.CategorySlider_container::-webkit-scrollbar-thumb:hover {
+  background: #666; 
+}
+ 

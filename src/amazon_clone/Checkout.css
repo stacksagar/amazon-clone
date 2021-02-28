@@ -1,0 +1,70 @@
+.Checkout {
+ display: flex;
+ justify-content: space-between;
+ align-items: flex-start;
+ padding:20px;
+}
+ 
+.Checkout .left_side{ 
+ background:#fff; 
+ width:65%;
+ padding:15px;
+}
+.Checkout .right_side{ 
+ width:33%; 
+}
+.left_side > h3 {
+ margin-bottom:10px !important;
+} 
+.left_side > .Checkout_Product {
+ display: flex; 
+ align-items: center;
+ justify-content: space-between;
+ border-top:1.5px solid #ddd; 
+ padding:10px 0px !important;
+ margin-bottom:20px !important; 
+}
+
+.left_side > .Checkout_Product > .image {
+ max-width:25%;
+}
+.left_side > .Checkout_Product > .image > img {
+ max-width:95%;
+}
+.left_side > .Checkout_Product > .text {
+ max-width:70%;
+ display: flex;
+ flex-direction: column; 
+ justify-content:space-between; 
+ align-items: flex-start; 
+}
+.left_side > .Checkout_Product > .text > p {
+ margin:0px !important;
+}
+
+.left_side > .Checkout_Product > .text .title { 
+ color:#333 ;
+}
+.left_side > .Checkout_Product > .text .reviews {
+ font-size:9px;
+ color:orange !important;
+}
+
+.left_side > .Checkout_Product > .text .price > span {
+ font-size:13px;
+ font-weight: bold;
+}
+.left_side > .Checkout_Product > .text > button {
+ margin-top:9px !important;
+ padding:3px 9px !important;
+}
+
+.Checkout .right_side > div {
+ background:#f1f1f1;
+ padding:10px;
+ height:140px;
+ border-radius:3px;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
+}
