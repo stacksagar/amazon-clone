@@ -2,7 +2,7 @@
 
 [![](https://img.shields.io/badge/%20-Linkedin-blue?color=blue&labelColor=blue&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/stacksagar '@stacksagar linkedin profile') [![](https://img.shields.io/badge/%20-Twitter-blue?color=blue&labelColor=blue&logo=twitter&logoColor=white)](https://www.twitter.com/stacksagar '@stacksagar twitter profile') [![](https://img.shields.io/badge/%20-Facebook-blue?color=blue&labelColor=blue&logo=facebook&logoColor=white)](https://www.facebook.com/stacksagar '@stacksagar facebook profile')
 
-## <a href="https://stacksagar.github.io/amazon-clone"> Amazon Clone Made with (React.js, Bootstrap, Tailwind CSS) </a>
+## <a href="https://stacksagar.github.io/amazon-clone"> Amazon Clone Build with (React.js, Bootstrap, Tailwind CSS) </a>
 
 ###### React Project `amazon clone` [See Live Preview](https://stacksagar.github.io/amazon-clone 'project of @stacksagar')
 
